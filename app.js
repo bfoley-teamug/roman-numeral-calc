@@ -7,7 +7,7 @@ var inputTwo = second.querySelector('.two');
 var sum = document.querySelector('button.three'); 
 var difference = document.querySelector('button.four');
 
-///////////////////////////////////////////////
+////////////////////////////////////////////////
 //add
 
 sum.addEventListener ('click', () => {
