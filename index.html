@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"> 
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Roman Style Calculator</title>
@@ -23,8 +22,14 @@
    <div class="row"> 
        <div class="col-sm-1"></div> 
       <div class="col-sm-10">
-        <input type="text" class="one">
-        <input type="text" class="two"> 
+        
+        <form id="first">
+            <input type="text" class="one">
+        </form>
+        <form id="second">
+            <input type="text" class="two"> 
+        </form>
+        
      </div>
      <div class="col-sm-1"></div>
      </div>
@@ -37,11 +42,19 @@
       <div class="col-sm-10">
         <button type="text" class="three">+</button>
         <button type="text" class="four">-</button>
+        
      </div>
      <div class="col-sm-1"></div>
      </div>
        
-       
+        <div class="row">
+           <div class="col-sm-5"></div> 
+      <div class="col-sm-5">
+        <!-- answer goes here-->
+        <p id="answer"></p>
+     </div>
+     <div class="col-sm-2"></div>
+          </div>
        
          </div> 
  </div>
