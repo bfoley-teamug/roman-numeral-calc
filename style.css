@@ -20,6 +20,11 @@ h3 {
  text-align:center;  
 }
 
+p {
+  margin-top: 2em;
+  font-size: 28px;
+}
+
 img {
  float:right; 
  margin-right: 2.6em;
@@ -29,8 +34,10 @@ input {
   border: 1px solid #dcdcdc;
   height: 60px;
   width: 60px;
-  font-size: 1em;
+  padding: .3em;
+  font-size: 24px;
   border-radius: .3em; 
+  text-align: right;
 }
 
 .one {
