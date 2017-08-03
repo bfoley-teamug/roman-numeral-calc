@@ -7,7 +7,7 @@ var inputTwo = second.querySelector('.two');
 var sum = document.querySelector('button.three'); 
 var difference = document.querySelector('button.four');
 
-////////////////////////////////////////////////
+///////////////////////////////////////////////
 //add
 
 sum.addEventListener ('click', () => {
@@ -76,6 +76,4 @@ difference.addEventListener ('click', () => {
     } else {
     answer.textContent = convertToRoman(parseInt(inputOne.value)) + ' - ' + convertToRoman(parseInt(inputTwo.value)) + ' = ' + (convertToRoman(parseInt(inputOne.value) - parseInt(inputTwo.value)));
     }
- 
-
 });
